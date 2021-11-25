@@ -18,26 +18,29 @@ html{width:100%; max-width:667px;min-width:300px;margin-right:0px;}
 ul{list-style-type:none}
 
 body{width:100%;margin:0px;}
-section{height:100%;max-width:667px;min-width:300px;background-color:grey;
+section{height:100%;max-width:667px;min-width:300px;background-color:rgba(246,246,246,255)
+    ;
 margin:0px;justify-content:space-around;display:flex;flex-direction:column;padding:5%;}
 img{width:100%;border-radius:20px 20px 0 0; height:17rem; object-fit:cover;}
 SEction h2{ font-size:50px}
-section article{height:auto;box-shadow:10px 10px black;background-color:white;border-radius:20px;text-align:center;margin-bottom:5%;width:auto}
+section article{height:auto;box-shadow:10px 10px rgba(237,237,237,255) ;background-color:white;border-radius:20px;text-align:center;margin-bottom:5%;width:auto}
 article p{padding:5%; padding-top:0;margin-top:2%;margin-bottom:2%;font-size:3rem;text-align:start}
 article h2{ padding-left:5%;padding-bottom:0;margin-bottom:0;font-size:3rem;text-align:start;}
 section a{color:black;text-decoration:none;}
 
-footer{width:100%;background-color:black;color:white;margin-right:0px}
+footer{width:100%;background-color:rgba(53,53,53,255)
+    ;color: white;margin-right:0px}
 footer a{color:white;text-decoration:none;}
 
 #titre{width:100%;}
-#titre img{width:35rem;object-fit:contain;margin:10%;margin-bottom:0;margin-top:0px;height:5%}
-#localisation{background-color:green; border-top:5px solid red;
+#titre img{width:auto;object-fit:contain;margin:auto;margin-bottom:0;margin-top:0px;margin-left:9rem;height:5%}
+#localisation{background-color:rgba(234,234,234,255); border-top:5px solid rgba(219,219,219,255);
+  padding:2rem; width:auto;
 text-align:center;margin-bottom:0px;width:100%;}
-#présentation{background-color:yellow;margin-top:0px;text-align:center}
-#présentationsentation h2{margin-top:0px;;}
-#explorer{border:1px solid purple;border-radius:25rem;width:60%;margin:auto; background-color:purple;color:white;font-size:2rem;box-shadow:5px 5px black}
+#présentation{background-color:rgba(246,246,246,255);margin-top:0px;text-align:center;font-size:2rem;margin-bottom:4rem}
+#présentation h2{margin-top:0px;;}
+#explorer{border:1px solid #9356DC;border-radius:25rem;width:60%;margin:auto; background-color:#9356DC;color:white;font-size:2rem;box-shadow:5px 5px rgba(237,237,237,255)}
 
 nav h2{text-align:left;margin-left:4%}
 nav{text-align:center;width:100%;}
-nav li{border:10px solid blue;border-radius:20px;margin:3%;box-shadow:5px 5px black}
+nav li{border:10px solid rgba(246,246,246,255);background-color:rgba(246,246,246,255) ;border-radius:2.5rem;margin:3%;box-shadow:5px 5px rgba(237,237,237,255);padding:2rem;}
