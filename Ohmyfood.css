@@ -14,7 +14,7 @@ h1,h2
 
 /****HEADER****/
 
-html{width:100%; max-width:667px;min-width:300px;margin-right:0px;}
+html{width:100%;min-width:300px;}
 ul{list-style-type:none}
 
 body{width:100%;margin:0px;}
@@ -29,7 +29,7 @@ article p{padding:5%; padding-top:0;margin-top:2%;margin-bottom:2%;font-size:3re
 article h2{ padding-left:5%;padding-bottom:0;margin-bottom:0;font-size:3rem;text-align:start;}
 section a{color:black;text-decoration:none;}*/
 
-section{height:100%;max-width:667px;min-width:300px;background-color:rgba(246,246,246,255)
+section{height:100%;width:auto;min-width:300px;background-color:rgba(246,246,246,255)
     ;
 margin:0px;justify-content:space-around;display:flex;flex-direction:column;padding:5%;}
 img{width:100%;border-radius:20px 20px 0 0; height:22rem;; object-fit:cover;}
