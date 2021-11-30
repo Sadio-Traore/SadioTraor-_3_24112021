@@ -91,10 +91,11 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
 .photo {height:20%;}
 
 .menu {background-color:rgba(246,246,246,255);border-radius:8rem 8rem 0 0;position:relative;top:-10rem;text-align:center;padding:2rem;margin-bottom:-10rem;}
-.menu li{background-color:white;margin:auto;margin-bottom:2rem;border-radius:2rem;width:auto;text-align:start;font-size:2.5rem;padding-left:35px;padding-top:0;box-shadow:15px 15px 15px 15px rgba(237,237,237,255)}
+.menu li{background-color:white;margin:auto;margin-bottom:3rem;border-radius:3rem;width:auto;text-align:start;font-size:2.5rem;padding-left:35px;padding-top:0;box-shadow:15px 15px 15px 15px rgba(237,237,237,255)}
 .menu ul{padding:0}
 .menu .prix{display:flex;justify-content:space-between;width:90%}
-.menu h3{margin:0}
+.prix p{margin-top:0.5rem;}
+.menu h3{margin:0;padding-top:1.5rem;}
 .menu h2{text-align:start;margin:2rem;margin-bottom:4%;border-bottom:2px solid #99E2D0;padding-bottom:8px}
 .menu h1 {margin-top:10px}
 .menu article{margin-top:15%}
