@@ -46,8 +46,8 @@ img{width:100%;border-radius:20px 20px 0 0; height:22rem;; object-fit:cover;}
     ;color: white;margin-right:0px}
 footer a{color:white;text-decoration:none;}*/
 
-footer{height:auto;width:100%;background-color:rgba(53,53,53,255)
-    ;color: white;margin-right:0px;padding:5rem;}   /*width:auto*/
+footer{height:auto;width:auto;background-color:rgba(53,53,53,255)
+    ;color: white;margin-right:0px;padding:5rem;font-size:2.5rem;}   
 footer a{color:white;text-decoration:none;}
 footer li{margin-bottom:1.5rem}
 footer i{margin-right:2.5rem}
@@ -86,7 +86,7 @@ margin:3%;box-shadow:15px 15px rgba(237,237,237,255);padding:2rem;font-size:2rem
 nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
 
 /*Menu*/
-.en-tête i {position:absolute;top:4%;left:3.5rem;}
+.en-tête i {position:absolute;top:4rem;left:3.5rem;font-size:4rem;color:black}
 #logo img{width:40%;margin:auto;margin-left:30%;object-fit:none;height:10rem}
 .photo {height:20%;}
 
@@ -103,9 +103,10 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
 .restaurant i{margin-top:40px}
 .menu .btn{margin:auto;margin-top:15%;margin-bottom:15%;box-shadow:15px 15px 15px 15px rgba(237,237,237,255);font-size:3rem;padding:4rem}
 
+/*
 @media all and (min-width:1024px)
 
-/*Menu*/
+/*Menu*
 
 {
   h2{font-size:3rem}
@@ -127,5 +128,61 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
   .display li{margin:20px;}
   
 
+  
+}
+*/
+
+@media all and (min-width:1300px) and (max-width:1999px)
+
+/*Menu*/
+
+{
+  h2{font-size:3rem}
+  h1{font-size:6rem}
+    
+  .restaurant{width:90%;margin:auto}
+  .fas {font-size:5rem;color:black;margin:25px}
+  
+
+  .repas{display:flex;justify-content:space-around;flex-wrap:wrap;width:100%;}
+  .repas article{margin:auto}
+  .repas li{width:100%;}
+  .repas p{font-size:15px}
+  .menu .btn {width:20%;margin:auto;margin-top:2rem;margin-bottom:2rem;padding:2rem}
+  .repas h3{font-size:1.6rem;}
+
+  footer .fas{color:white;font-size:20px;margin:0;margin-right:10px}
+  footer {font-size:2rem}
+  footer h1 {text-align:center;font-size:5rem;}
+  .display{display:flex;justify-content:space-around}
+  .display li{margin:20px;}
+  
+
+  
+}
+
+@media all and (min-width:2000px)
+
+{
+   h2{font-size:4rem}
+  h1{font-size:7rem}
+    
+  .restaurant{width:90%;margin:auto}
+  .fas {font-size:5rem;color:black;margin:2px}
+  
+
+  .repas{display:flex;justify-content:space-around;width:AUTO;}
+  .repas article{margin:auto;}
+  .repas li{width:105%;}
+  .repas p{font-size:25px}
+  .menu{padding-left:0}
+  .menu .btn {width:20%;margin:auto;margin-top:3rem;margin-bottom:3rem;padding:2rem;}
+  .repas h3{font-size:1.7rem;}
+
+  footer .fas{color:white;font-size:20px;margin:0;margin-right:10px}
+  footer {font-size:2rem}
+  footer h1 {text-align:center;font-size:5rem;}
+  .display{display:flex;justify-content:space-around}
+  .display li{margin:20px;}
   
 }
