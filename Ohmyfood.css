@@ -102,3 +102,30 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
 .restaurant{display:flex;justify-content:space-between;width:100%;font-size:5rem;}
 .restaurant i{margin-top:40px}
 .menu .btn{margin:auto;margin-top:15%;margin-bottom:15%;box-shadow:15px 15px 15px 15px rgba(237,237,237,255);font-size:3rem;padding:4rem}
+
+@media all and (min-width:1024px)
+
+/*Menu*/
+
+{
+  h2{font-size:3rem}
+    
+  .restaurant{width:90%;margin:auto}
+  .fas {font-size:5rem;color:black;margin:25px}
+  
+
+  .repas{display:flex;justify-content:space-around;width:100%}
+  .repas article{margin:auto}
+  .repas li{width:100%;}
+  .repas p{font-size:25px}
+  .menu .btn {width:30%}
+
+  footer .fas{color:white;font-size:20px;margin:0;margin-right:10px}
+  footer {font-size:2rem}
+  footer h1 {text-align:center}
+  .display{display:flex;justify-content:space-around}
+  .display li{margin:20px;}
+  
+
+  
+}
