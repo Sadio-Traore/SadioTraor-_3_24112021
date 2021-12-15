@@ -230,6 +230,8 @@ h1,h2
 
 }
 
+.btn{opacity:1;transition:opacity 2s ease-in-out}
+.btn:hover{opacity:0.8}
 /****HEADER****/
 
 html{width:100%;min-width:300px;}
@@ -307,23 +309,29 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
 .photo {height:20%;border-radius:0}
 
 .menu {background-color:rgba(246,246,246,255);border-radius:8rem 8rem 0 0;position:relative;top:-10rem;text-align:center;padding:2rem;margin-bottom:-10rem;}
-.menu li{background-color:white;margin:auto;margin-bottom:3rem;border-radius:2rem;width:auto;
+.menu li{ display:flex;justify-content:space-between;background-color:white;margin:auto;margin-bottom:3rem;border-radius:2rem;width:auto;
   text-align:start;padding-left:35px;padding-top:0;box-shadow:15px 15px 15px 15px rgba(237,237,237,255);
-  transform:scalex(1);transition:all 2s ease-in-out;}
+  transform:scalex(1);transform-origin:left;transition:all 2s ease-in-out;}
+.validation{overflow:auto}
+.fa-check-circle{border:2px solid #99E2D0;border-radius:0 2rem 2rem 0;background-color:#99E2D0;height:auto; padding:10%;transform:scale(0);transform-origin:right ;transition:all 2s ease-in-out;}
 
-.menu li:hover{transform:scalex(-1.2);background-color:purple}
+.menu li:hover + .validation{transform:scalex(1);}
+.menu li:hover + .fa-check-circle{transform:scale(1)}
+
 
 
 .menu ul{padding:0}
-.menu .prix{display:flex;justify-content:space-between;width:90%}
+.menu .prix{display:flex;justify-content:space-between;width:100%}
 .prix p{margin-top:0.5rem;}
 .menu h3{margin:0;padding-top:1.5rem;}
 .menu h2{text-align:start;margin:2rem;margin-bottom:4%;border-bottom:2px solid #99E2D0;padding-bottom:8px}
 .menu h1 {margin-top:10px}
 .menu article{margin-top:15%}
 .restaurant{display:flex;justify-content:space-between;width:100%;}
-.restaurant i{margin-top:40px}
-.menu .btn{margin:auto;margin-top:15%;margin-bottom:15%;box-shadow:15px 15px 15px 15px rgba(237,237,237,255);font-size:3rem;padding:4rem}
+.restaurant i{color:none;transform-origin:bottom ;transition:all 3s ease-in-out;height:0%;}
+.restaurant i:hover{color:#9356DC;}
+
+.menu .btn{margin:auto;margin-top:15%;margin-bottom:15%;box-shadow:15px 15px 15px 15px rgba(237,237,237,255);font-size:3rem;padding:4rem;}
 
 
 @media all and (min-width:1024px)
