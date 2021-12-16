@@ -428,7 +428,7 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
   
   
     /*INDEX*/
-      body{margin:auto;max-width:1800px}
+      body{margin:auto;max-width:1500px}
       #présentation{text-align:center;}
     
       nav ul{display:flex;justify-content:space-around;flex-wrap:wrap;padding:0}
@@ -439,20 +439,20 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
       p.new{width:15%;padding:3.5%;text-align:center}
       p{margin-top:1rem;padding-bottom:0%}
       .resto img{height:70%;}
-      i.far.fa-heart{position:relative;top:-9rem;}
+      i.far.fa-heart{position:relative;top:-15%;}
       
       #restos1_2{display:flex;justify-content:space-around;}
       #restos1{width:50%;margin:60PX;}
       #restos2{width:50%;margin:60Px;}
       .resto{margin-top:100px;}
-      #restaurants{width:100%;}
+      #restaurants{width:auto;}
 
     
 
 
     /*MENU*/
   
-    body{max-width:2000px;margin:auto}
+    body{max-width:1500px;margin:auto}
     .restaurant{width:90%;margin:auto}
     .fas {font-size:5rem;color:black;margin:2px}
     
