@@ -334,7 +334,7 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
 .menu .btn{margin:auto;margin-top:15%;margin-bottom:15%;box-shadow:15px 15px 15px 15px rgba(237,237,237,255);font-size:3rem;padding:4rem;}
 
 
-@media all and (min-width:1024px)
+@media all and (min-width:764px)and(max-width:1199px)
 
 
 
@@ -360,11 +360,10 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
   .fas {font-size:5rem;color:black;margin:25px}
   
 
-  .repas{display:flex;justify-content:space-around;width:100%}
+  .repas{display:flex;justify-content:space-around;flex-wrap:wrap;width:100%}
   .repas article{margin:auto}
-  .repas li{width:100%;}
-  .repas p{font-size:25px}
-  .menu .btn {width:30%}
+  .repas li{width:auto;}
+  .menu .btn {padding:4%}
 
   footer .fas{color:white;font-size:20px;margin:0;margin-right:10px}
   footer {font-size:2rem}
@@ -377,7 +376,7 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
 }
 
 
-@media all and (min-width:1300px) and (max-width:1999px)
+@media all and (min-width:1200px) and (max-width:1399px)
 
 
 
@@ -392,27 +391,26 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
  nav li{width:550px;padding:0}
  nav .liste{padding:10px;padding-top:7px;padding-bottom:7px;left:-30px}
 
- .resto i{position:relative;}
- .new{left:70%;width:100px;}
+ .resto i{position:relative;top:-15%}
+ .new{left:55%;bottom:88%;width:100px;}
  p.new{padding:2rem;text-align:center;}
 
  #restos1_2{display:flex;justify-content:space-around;}
- #restos1{width:50%;margin:60PX;}
- #restos2{width:50%;margin:60Px;}
- .resto{margin-top:100px;max-width:900px;min-width:590px}
- #restaurants{max-width:1900px;}
+ #restos1,#restos2{width:50%;margin:60PX;}
+ .resto{margin-top:100px;}
+ 
 
 
 
     /*MENU*/
   .restaurant{width:90%;margin:auto}
-  .fas.fa-arrow-left {font-size:5rem;color:black;margin:25px;position:absolute;top:25px}
+  .fas.fa-arrow-left {color:black;margin:25px;position:absolute;top:25px}
   
 
   .repas{display:flex;justify-content:space-around;flex-wrap:wrap;width:100%;}
-  .repas article{margin:auto}
-  .repas li{width:100%;}
-  .menu .btn {width:20%;margin:auto;margin-top:2rem;margin-bottom:2rem;padding:2rem}
+  .repas article{margin:1%}
+  .repas li{height:110px;}
+  .menu .btn {margin:auto;margin-top:2rem;margin-bottom:2rem;padding:4%}
   
 
   footer .fas{color:white;font-size:20px;margin:0;margin-right:10px}
@@ -424,21 +422,21 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
   
 }
 
-@media all and (min-width:2000px)
+@media all and (min-width:1400px)
 
 {
   
   
     /*INDEX*/
-
+      body{margin:auto;max-width:1800px}
       #présentation{text-align:center;}
     
-      nav ul{display:flex;justify-content:space-between;}
+      nav ul{display:flex;justify-content:space-around;flex-wrap:wrap;padding:0}
       nav li{width:100%;}
-      nav .liste{padding:20px;padding-top:10px;padding-bottom:10px}
+      nav .liste{padding:12px;padding-top:8px;padding-bottom:8px}
     
-      .new{bottom:38rem;left:78%;}
-      p.new{width:120px;padding:1.5rem;text-align:center}
+      .new{bottom:100%;left:75%;}
+      p.new{width:15%;padding:3.5%;text-align:center}
       p{margin-top:1rem;padding-bottom:0%}
       .resto img{height:70%;}
       i.far.fa-heart{position:relative;top:-9rem;}
@@ -446,25 +444,24 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
       #restos1_2{display:flex;justify-content:space-around;}
       #restos1{width:50%;margin:60PX;}
       #restos2{width:50%;margin:60Px;}
-      .resto{margin-top:100px;min-width:808px;max-width:900px}
-      #restaurants{max-width:3000px;margin:100px}
+      .resto{margin-top:100px;}
+      #restaurants{width:100%;}
 
     
 
 
     /*MENU*/
   
-      
+    body{max-width:2000px;margin:auto}
     .restaurant{width:90%;margin:auto}
     .fas {font-size:5rem;color:black;margin:2px}
     
 
-    .repas{display:flex;justify-content:space-around;width:AUTO;}
+    .repas{display:flex;justify-content:space-around;flex-wrap:wrap;width:AUTO;}
     .repas article{margin:auto;}
-    .repas li{width:105%;}
-    .repas p{font-size:25px}
+    .repas li{width:100%;height:125px}
     .menu{padding-left:0}
-    .menu .btn {width:20%;margin:auto;margin-top:3rem;margin-bottom:3rem;padding:2rem;}
+    .menu .btn {padding:3%;}
     
 
     footer .fas{color:white;font-size:20px;margin:0;margin-right:10px}
