@@ -1,224 +1,12 @@
-/*
-
-/****PARAMETRES GENERAUX****
-p
-{
-    font-family : 'Roboto', sans-serif;
-}
-
-h1,h2
-{
-    font-family : 'Shrikhand', cursif , sans-serif ;
-
-}
-
-/****HEADER****
-
-html{width:100%;min-width:300px;}
-ul{list-style-type:none}
-
-body{width:100%;margin:0px;}
-/*
-section{height:100%;max-width:667px;min-width:300px;background-color:rgba(246,246,246,255)
-    ;
-margin:0px;justify-content:space-around;display:flex;flex-direction:column;padding:5%;}
-img{width:100%;border-radius:20px 20px 0 0; height:17rem; object-fit:cover;}
-SEction h2{ font-size:50px}
-section article{height:auto;box-shadow:10px 10px rgba(237,237,237,255) ;background-color:white;border-radius:20px;text-align:center;margin-bottom:5%;width:auto}
-article p{padding:5%; padding-top:0;margin-top:2%;margin-bottom:2%;font-size:3rem;text-align:start}
-article h2{ padding-left:5%;padding-bottom:0;margin-bottom:0;font-size:3rem;text-align:start;}
-section a{color:black;text-decoration:none;}******
-
-#restaurants{height:100%;width:auto;min-width:300px;background-color:rgba(246,246,246,255)
-    ;
-margin:0px;justify-content:space-around;display:flex;flex-direction:column;padding:5%;}
-img{width:100%;border-radius:20px 20px 0 0; height:22rem;; object-fit:cover;}
-#restaurants h2{ font-size:50px}
-#restaurants .resto{height:35rem;box-shadow:10px 10px rgba(237,237,237,255) ;background-color:white;border-radius:20px;text-align:center;margin-bottom:5%;width:auto}
-.resto p{padding:5%; padding-top:0;margin-top:2%;margin-bottom:1rem;font-size:3rem;text-align:start}
-.resto h2{ padding-left:5%;padding-bottom:0;margin-bottom:0;margin-top:2rem;font-size:3rem;text-align:start;}
-#restaurants a{color:black;text-decoration:none;}
-.new {position:relative;bottom:37rem;left:25rem;border:2px solid #99E2D0 ;color:rgba(24,149,118,255)
-    ;border-radius:1rem;width:9rem;background-color:#99E2D0;padding:1rem;font-size:2rem;text-align:center;}
-#restaurants i {position:relative;bottom:7.5rem;left:15rem;font-size:4rem}
-
-/*footer{width:100%;background-color:rgba(53,53,53,255)
-    ;color: white;margin-right:0px}
-footer a{color:white;text-decoration:none;}******
-
-footer{height:auto;width:auto;background-color:rgba(53,53,53,255)
-    ;color: white;margin-right:0px;padding:5rem;font-size:2.5rem;}   
-footer a{color:white;text-decoration:none;}
-footer li{margin-bottom:1.5rem}
-footer i{margin-right:2.5rem}
-footer h1{margin-top:0;padding:2.5rem;margin-bottom:0}
-
-#titre{width:100%;}
-
-#titre img{width:auto;object-fit:contain;margin:auto;margin-bottom:0;margin-top:1rem;margin-left:8.5rem;height:5%}
-/*#titre img{width:auto;object-fit:none;margin:auto;margin-bottom:0;margin-top:1rem;margin-left:8.5rem;height:10%}
-#logo{width:55%;object-fit:none;;margin-bottom:0;margin-top:1rem;margin:auto;height:8rem}*******
-
-
-#localisation{background-color:rgba(234,234,234,255); border-top:5px solid rgba(219,219,219,255);
-  padding:2rem;padding-left: 0;padding-right: 0;
-text-align:center;margin-bottom:0px;width:100%;}
-
-#présentation{background-color:rgba(246,246,246,255);margin-top:0px;text-align:center;font-size:1rem;margin-bottom:4rem;padding:5rem;padding-left:1rem;padding-right:1rem;}
-#présentation h2{margin-top:0px;font-size:3rem;font-weight:bold;margin-bottom:1rem;}
-#description {font-size:1.5rem;}
-.btn{border:1px solid #9356DC;border-radius:25rem;
-width:60%;margin:auto;margin-top:3rem;margin-bottom:2rem;padding:1.5rem;padding-left:1rem;padding-right:1rem; background-color:#9356DC;color:white;
-font-size:2rem;box-shadow:5px 5px rgba(237,237,237,255)}
-/*
-(nav h2{text-align:left;margin-left:4%}
-nav{text-align:center;width:100%;}
-nav li{border:10px solid rgba(246,246,246,255);background-color:rgba(246,246,246,255) ;border-radius:2.5rem;margin:3%;box-shadow:5px 5px rgba(237,237,237,255);padding:2rem;}
-)
-*******
-
-nav h2{text-align:left;margin-left:4%}
-nav{text-align:center;width:100%;}
-nav li{display:flex;border:10px solid rgba(246,246,246,255);background-color:rgba(246,246,246,255) ;border-radius:2.5rem;
-margin:3%;box-shadow:15px 15px rgba(237,237,237,255);padding:2rem;font-size:2rem}
-.choix{margin:auto;font-weight:bold;width:100%;margin-left:50px;font-size:1.6rem;padding:0.5rem;}
-.liste{position:relative;left:-3.5rem;border:solid 5px #9356DC;border-radius:50%;;padding-left:10.5px;padding-right:10.5px;margin:auto;color:white;background-color:#9356DC}
-nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
-
-/*Menu****
-.en-tête i {position:absolute;top:4rem;left:3.5rem;font-size:4rem;color:black}
-#logo img{width:40%;margin:auto;margin-left:30%;object-fit:none;height:10rem}
-.photo {height:20%;border-radius:0}
-
-.menu {background-color:rgba(246,246,246,255);border-radius:8rem 8rem 0 0;position:relative;top:-10rem;text-align:center;padding:2rem;margin-bottom:-10rem;}
-.menu li{background-color:white;margin:auto;margin-bottom:3rem;border-radius:2rem;width:auto;
-  text-align:start;font-size:2.5rem;padding-left:35px;padding-top:0;box-shadow:15px 15px 15px 15px rgba(237,237,237,255);
-  transform:scalex(1);transition:all 2s ease-in-out;
-
-}
-
-.menu li:hover{transform:scalex(-1.2);background-color:purple}
-
-
-.menu ul{padding:0}
-.menu .prix{display:flex;justify-content:space-between;width:90%}
-.prix p{margin-top:0.5rem;}
-.menu h3{margin:0;padding-top:1.5rem;}
-.menu h2{text-align:start;margin:2rem;margin-bottom:4%;border-bottom:2px solid #99E2D0;padding-bottom:8px}
-.menu h1 {margin-top:10px}
-.menu article{margin-top:15%}
-.restaurant{display:flex;justify-content:space-between;width:100%;font-size:5rem;}
-.restaurant i{margin-top:40px}
-.menu .btn{margin:auto;margin-top:15%;margin-bottom:15%;box-shadow:15px 15px 15px 15px rgba(237,237,237,255);font-size:3rem;padding:4rem}
-
-/*
-@media all and (min-width:1024px)
-
-/*Menu*********************************************************************************************** en commentaire déja nn fermé commence avant
-
-{
-  h2{font-size:3rem}
-    
-  .restaurant{width:90%;margin:auto}
-  .fas {font-size:5rem;color:black;margin:25px}
-  
-
-  .repas{display:flex;justify-content:space-around;width:100%}
-  .repas article{margin:auto}
-  .repas li{width:100%;}
-  .repas p{font-size:25px}
-  .menu .btn {width:30%}
-
-  footer .fas{color:white;font-size:20px;margin:0;margin-right:10px}
-  footer {font-size:2rem}
-  footer h1 {text-align:center}
-  .display{display:flex;justify-content:space-around}
-  .display li{margin:20px;}
-  
-
-  
-}
-*************************************************************************************************
-
-@media all and (min-width:1300px) and (max-width:1999px)
-
-/*Menu*****
-
-{
-  h2{font-size:3rem}
-  h1{font-size:6rem}
-    
-  .restaurant{width:90%;margin:auto}
-  .fas.fa-arrow-left {font-size:5rem;color:black;margin:25px;position:absolute;top:25px}
-  
-
-  .repas{display:flex;justify-content:space-around;flex-wrap:wrap;width:100%;}
-  .repas article{margin:auto}
-  .repas li{width:100%;}
-  .repas p{font-size:15px}
-  .menu .btn {width:20%;margin:auto;margin-top:2rem;margin-bottom:2rem;padding:2rem}
-  .repas h3{font-size:1.6rem;}
-
-  footer .fas{color:white;font-size:20px;margin:0;margin-right:10px}
-  footer {font-size:2rem}
-  footer h1 {text-align:center;font-size:5rem;}
-  .display{display:flex;justify-content:space-around}
-  .display li{margin:20px;}
-  
-
-  
-}
-
-@media all and (min-width:2000px)
-
-{
-  /*INDEX*****
-  
-  
-
-  #localisation{font-size:4rem}
-  #présentation{text-align:center;font-size:3rem}
-
-  nav ul{display:flex;justify-content:space-between;}
-  nav li{width:100%;}
-  nav .liste{padding:20px;padding-top:10px;padding-bottom:10px}
-
-  .new{bottom:45rem;left:148rem;}
-  p.new{width:12rem;padding:2rem;}
-  .resto p{margin-top:1rem}
-  i.far.fa-heart{position:relative;top:-16rem;right:2rem;}
-
-
-  /*MENU****
-   h2{font-size:4rem}
-  h1{font-size:7rem}
-    
-  .restaurant{width:90%;margin:auto}
-  .fas {font-size:5rem;color:black;margin:2px}
-  
-
-  .repas{display:flex;justify-content:space-around;width:AUTO;}
-  .repas article{margin:auto;}
-  .repas li{width:105%;}
-  .repas p{font-size:25px}
-  .menu{padding-left:0}
-  .menu .btn {width:20%;margin:auto;margin-top:3rem;margin-bottom:3rem;padding:2rem;}
-  .repas h3{font-size:1.7rem;}
-
-  footer .fas{color:white;font-size:20px;margin:0;margin-right:10px}
-  footer {font-size:2rem}
-  footer h1 {text-align:center;font-size:5rem;}
-  .display{display:flex;justify-content:space-around}
-  .display li{margin:20px;}
-  
-}
-
-*/
-
 
 
 
 /****PARAMETRES GENERAUX****/
+html{width:100%;min-width:300px;}
+ul{list-style-type:none}
+
+body{width:100%;margin:0px;}
+
 p
 {
     font-family : 'Roboto', sans-serif;
@@ -232,22 +20,11 @@ h1,h2
 
 .btn{opacity:1;transition:opacity 2s ease-in-out}
 .btn:hover{opacity:0.8}
+
 /****HEADER****/
 
-html{width:100%;min-width:300px;}
-ul{list-style-type:none}
 
-body{width:100%;margin:0px;}
-/*
-section{height:100%;max-width:667px;min-width:300px;background-color:rgba(246,246,246,255)
-    ;
-margin:0px;justify-content:space-around;display:flex;flex-direction:column;padding:5%;}
-img{width:100%;border-radius:20px 20px 0 0; height:17rem; object-fit:cover;}
-SEction h2{ font-size:50px}
-section article{height:auto;box-shadow:10px 10px rgba(237,237,237,255) ;background-color:white;border-radius:20px;text-align:center;margin-bottom:5%;width:auto}
-article p{padding:5%; padding-top:0;margin-top:2%;margin-bottom:2%;font-size:3rem;text-align:start}
-article h2{ padding-left:5%;padding-bottom:0;margin-bottom:0;font-size:3rem;text-align:start;}
-section a{color:black;text-decoration:none;}*/
+
 
 #restaurants{height:100%;width:auto;min-width:300px;background-color:rgba(246,246,246,255)
     ;
@@ -261,9 +38,7 @@ img{width:100%;border-radius:20px 20px 0 0; height:22rem;; object-fit:cover;}
     ;border-radius:1rem;width:9rem;background-color:#99E2D0;padding:1rem;text-align:center;}
 #restaurants i {position:relative;bottom:25%;left:40%;}
 
-/*footer{width:100%;background-color:rgba(53,53,53,255)
-    ;color: white;margin-right:0px}
-footer a{color:white;text-decoration:none;}*/
+
 
 footer{height:auto;width:auto;background-color:rgba(53,53,53,255)
     ;color: white;margin-right:0px;padding:5rem;}   
@@ -274,9 +49,7 @@ footer h1{margin-top:0;padding:2.5rem;margin-bottom:0}
 
 #titre{width:100%;}
 
-#titre img{width:auto;object-fit:contain;margin:auto;margin-bottom:0;margin-top:1rem;margin-left:8.5rem;height:5%}
-/*#titre img{width:auto;object-fit:none;margin:auto;margin-bottom:0;margin-top:1rem;margin-left:8.5rem;height:10%}
-#logo{width:55%;object-fit:none;;margin-bottom:0;margin-top:1rem;margin:auto;height:8rem}*/
+#titre img{width:auto;object-fit:contain;margin:auto;margin-bottom:0;margin-top:1rem;margin-left:10%;height:5%}
 
 
 #localisation{background-color:rgba(234,234,234,255); border-top:5px solid rgba(219,219,219,255);
@@ -288,12 +61,7 @@ text-align:center;margin-bottom:0px;width:100%;}
 .btn{border:1px solid #9356DC;border-radius:25rem;
 width:60%;margin:auto;margin-top:3rem;margin-bottom:2rem;padding:1.5rem;padding-left:1rem;padding-right:1rem; background-color:#9356DC;color:white;
 ;box-shadow:5px 5px rgba(237,237,237,255)}
-/*
-(nav h2{text-align:left;margin-left:4%}
-nav{text-align:center;width:100%;}
-nav li{border:10px solid rgba(246,246,246,255);background-color:rgba(246,246,246,255) ;border-radius:2.5rem;margin:3%;box-shadow:5px 5px rgba(237,237,237,255);padding:2rem;}
-)
-*/
+
 
 nav h2{text-align:left;margin-left:4%}
 nav{text-align:center;width:100%;}
@@ -304,34 +72,68 @@ margin:3%;box-shadow:15px 15px rgba(237,237,237,255);padding:2rem;}
 nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
 
 /*Menu*/
-.en-tête i {position:absolute;top:4rem;left:3.5rem;font-size:4rem;color:black}
-#logo img{width:40%;margin:auto;margin-left:30%;object-fit:none;height:10rem}
-.photo {height:20%;border-radius:0}
+.en-tête i {position:absolute;top:2rem;left:2rem;font-size:100%;color:black}
+#logo img{width:40%;margin:auto;margin-left:20%;object-fit:contain;height:100%;}
+.photo {height:300px;border-radius:0}
 
-.menu {background-color:rgba(246,246,246,255);border-radius:8rem 8rem 0 0;position:relative;top:-10rem;text-align:center;padding:2rem;margin-bottom:-10rem;}
-.menu li{ display:flex;justify-content:space-between;background-color:white;margin:auto;margin-bottom:3rem;border-radius:2rem;width:auto;
-  text-align:start;padding-left:35px;padding-top:0;box-shadow:15px 15px 15px 15px rgba(237,237,237,255);
-  transform:scalex(1);transform-origin:left;transition:all 2s ease-in-out;}
-.validation{overflow:auto}
-.fa-check-circle{border:2px solid #99E2D0;border-radius:0 2rem 2rem 0;background-color:#99E2D0;height:auto; padding:10%;transform:scale(0);transform-origin:right ;transition:all 2s ease-in-out;}
+.menu {background-color:rgba(246,246,246,255);border-radius:3rem 3rem 0 0;position:relative;top:-4rem;text-align:center;padding:2rem;margin-bottom:-10rem;}
+.menu li{ 
+  display:flex;
+  justify-content:space-between;
+  background-color:white;
+  margin:auto;
+  margin-bottom:3rem;
+  border-radius:1rem;
+  width:100%;
+  height:90px;
+  text-align:start;
+  padding-left:15px;
+  box-shadow:15px 15px 15px 15px rgba(237,237,237,255);
+  transform:scalex(1);
+  transform-origin:left;
+  transition:all 5s ease;
+}
 
-.menu li:hover + .validation{transform:scalex(1);}
-.menu li:hover + .fa-check-circle{transform:scale(1)}
+.fa-check-circle{border:2px solid #99E2D0;border-radius:0 1rem 1rem 0;background-color:#99E2D0;color:white;height:auto; padding:10%;transform:scale(0);transform-origin:right ;transition:all 5s ease;}
+.information
+{
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  transform:scale(1);
+  transform-origin:left;
+  transition:all 5s ease;
+}
+
+.price
+{
+  padding-top:20%;margin-left:20px;
+}
+.menu li:hover  .information{transform:scalex(0.85);}
+.menu li:hover  .fa-check-circle{transform:scale(1)}
+
+.restaurant .far.fa-heart{color:none;transform-origin:bottom ;;position:relative;top:20px;font-size:17px}
+.fas.fa-heart{position:relative;top:-48px;right:-13.54rem;color:red;font-size:13.5px;}
+.fas-fa-heart:active{color:#9356DC}
 
 
+.hidden{text-overflow:ellipsis}
 
 .menu ul{padding:0}
 .menu .prix{display:flex;justify-content:space-between;width:100%}
-.prix p{margin-top:0.5rem;}
-.menu h3{margin:0;padding-top:1.5rem;}
+.menu p{margin-top:5px;margin-bottom:5px;}
+.menu h3{margin:0;padding-top:5px;}
 .menu h2{text-align:start;margin:2rem;margin-bottom:4%;border-bottom:2px solid #99E2D0;padding-bottom:8px}
+#exeption{padding-top:127px}
 .menu h1 {margin-top:10px}
 .menu article{margin-top:15%}
-.restaurant{display:flex;justify-content:space-between;width:100%;}
-.restaurant i{color:none;transform-origin:bottom ;transition:all 3s ease-in-out;height:0%;}
-.restaurant i:hover{color:#9356DC;}
+.restaurant{display:flex;justify-content:space-between;width:90%;}
 
-.menu .btn{margin:auto;margin-top:15%;margin-bottom:15%;box-shadow:15px 15px 15px 15px rgba(237,237,237,255);font-size:3rem;padding:4rem;}
+.restaurant .far.fa-heart{color:none;transform-origin:bottom ;;position:relative;top:20px;font-size:17px}
+.fas.fa-heart:hover{color:#9356DC;}
+.fas.fa-heart{font-size:15px;position:relative;top:-48px;right:13.54rem;color:RED;transition:all 3s ease;transform-origin:bottom;}
+
+.menu .btn{margin:auto;margin-top:15%;margin-bottom:15%;box-shadow:15px 15px 15px 15px rgba(237,237,237,255);}
 
 
 @media all and (min-width:764px)and(max-width:1199px)
@@ -364,6 +166,11 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
   .repas article{margin:auto}
   .repas li{width:auto;}
   .menu .btn {padding:4%}
+
+  .restaurant .far.fa-heart{color:none;transform-origin:bottom ;;position:relative;top:20px;font-size:16px}
+  .fas.fa-heart:hover{color:#9356DC;}
+  .fas.fa-heart{font-size:16px;position:relative;top:-48px;left:60;color:transparnt;transition:all 3s ease;transform-origin:bottom;}
+
 
   footer .fas{color:white;font-size:20px;margin:0;margin-right:10px}
   footer {font-size:2rem}
@@ -411,6 +218,10 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
   .repas article{margin:1%}
   .repas li{height:110px;}
   .menu .btn {margin:auto;margin-top:2rem;margin-bottom:2rem;padding:4%}
+
+  .restaurant .far.fa-heart{color:none;transform-origin:bottom ;;position:relative;top:20px;font-size:16px}
+  .fas.fa-heart:hover{color:#9356DC;}
+  .fas.fa-heart{font-size:13px;position:relative;top:-45.7px;right:-44.2%;color:transparnt;transition:all 3s ease;transform-origin:bottom;}
   
 
   footer .fas{color:white;font-size:20px;margin:0;margin-right:10px}
@@ -459,9 +270,14 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
 
     .repas{display:flex;justify-content:space-around;flex-wrap:wrap;width:AUTO;}
     .repas article{margin:auto;}
-    .repas li{width:100%;height:125px}
+    .repas li{width:100%;}
     .menu{padding-left:0}
     .menu .btn {padding:3%;}
+
+    #exeption{padding-top:127px}
+    .restaurant .far.fa-heart{color:none;transform-origin:bottom ;;position:relative;top:20px;font-size:17px}
+    .fas.fa-heart:hover{color:#9356DC;}
+    .fas.fa-heart{font-size:15px;position:relative;top:-46.5px;left:44.4%;color:RED;transition:all 3s ease;transform-origin:bottom;}
     
 
     footer .fas{color:white;font-size:20px;margin:0;margin-right:10px}
