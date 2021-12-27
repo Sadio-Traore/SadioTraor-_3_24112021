@@ -20,12 +20,13 @@ h1,h2
 
 .btn
 {
+  background: linear-gradient(#FF79DA,#9356dc);
   opacity:1;
-  transition:opacity 2s ease-in-out
+  transition:opacity 1s ease-in-out;
 }
 .btn:hover
 {
-  opacity:0.8
+  opacity:0.7
 }
 
 
@@ -37,15 +38,32 @@ h1,h2
   display:inline-block;
   vertical-align: middle;
   position:relative;
- 
+  top:790px;
+  left:50%;
+
+  animation:charge 4s linear forwards;
 
 
+}
+@keyframes charge{
+  0%{opacity:1}
+  100%{opacity:0}
+}
 
+
+.index{
+  animation:charger 7s ease ;
+}
+
+@keyframes charger{
+  0%{opacity:0}
+  40%{opacity:0}
+  100%{opacity:1;}
 }
 
 .loading-spinner{
   border-radius :50px;
-  border:6px solid purple;
+  border:6px solid #9356DC;
   opacity:0.4;
 
 
@@ -66,7 +84,8 @@ animation:spin 2s linear infinite;
 
 @keyframes spin{
   0% {transform:rotate(0deg)}
-  100%{transform:rotate(360deg)}
+  100%{transform:rotate(360deg);}
+  
 }
 /****HEADER****/
 
@@ -121,17 +140,19 @@ text-align:center;margin-bottom:0px;width:100%;}
 #présentation{background-color:rgba(246,246,246,255);margin-top:0px;text-align:center;;margin-bottom:4rem;padding:5rem;padding-left:1rem;padding-right:1rem;}
 #présentation h2{margin-top:0px;font-weight:bold;margin-bottom:1rem;}
 .btn{border:1px solid #9356DC;border-radius:25rem;
-width:60%;margin:auto;margin-top:3rem;margin-bottom:2rem;padding:1.5rem;padding-left:1rem;padding-right:1rem; background-color:#9356DC;color:white;
+width:50%;max-width:530px;margin:auto;margin-top:3rem;margin-bottom:2rem;padding:30px;color:white;
 ;box-shadow:5px 5px rgba(237,237,237,255)}
 
 
 nav h2{text-align:left;margin-left:4%}
 nav{text-align:center;width:100%;}
-nav li{display:flex;border:10px solid rgba(246,246,246,255);background-color:rgba(246,246,246,255) ;border-radius:2.5rem;
+nav li{display:flex;background-color:rgba(246,246,246,255) ;border-radius:2.5rem;
 margin:3%;box-shadow:15px 15px rgba(237,237,237,255);padding:2rem;}
+nav li:hover {background-color:rgba(245,237,255,255)}
 .choix{margin:auto;font-weight:bold;width:100%;margin-left:50px;font-size:1.6rem;padding:0.5rem;}
 .liste{position:relative;left:-3.5rem;border:solid 5px #9356DC;border-radius:50%;;padding-left:10.5px;padding-right:10.5px;margin:auto;color:white;background-color:#9356DC}
 nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
+nav i:hover{color:#9356dc;}
 
 /*Menu*/
 .en-tête i {position:absolute;top:6%;left:2rem;font-size:100%;color:black}
@@ -194,7 +215,7 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
 .fas.fa-heart:hover{color:#9356DC;}
 .fas.fa-heart{font-size:15px;position:relative;top:-48px;right:13.54rem;color:transparent;transition:all 3s ease;transform-origin:bottom;}
 
-.menu .btn{margin:auto;margin-top:15%;margin-bottom:15%;box-shadow:15px 15px 15px 15px rgba(237,237,237,255);}
+.menu .btn{max-width:500px;margin:auto;margin-top:15%;margin-bottom:15%;box-shadow:15px 15px 15px 15px rgba(237,237,237,255);}
 
 .entrées{animation:entrées 2s linear;}
 @keyframes entrées{
@@ -217,7 +238,7 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
 }
 
 
-@media all and (min-width:764px)and(max-width:1199px)
+@media all and (min-width:764px) and (max-width:1199px)
 
 
 
@@ -240,6 +261,11 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
 
   nav h2{padding-left:35px}
 
+  .loader{
+    top:500px;
+    
+    }
+
   /*MENU*/
   h2{font-size:3rem}
     
@@ -250,11 +276,11 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
   .repas{display:flex;justify-content:space-around;flex-wrap:wrap;width:100%}
   .repas article{margin:auto}
   .repas li{width:auto;}
-  .menu .btn {padding:4%}
+  
 
   .restaurant .far.fa-heart{color:none;transform-origin:bottom ;;position:relative;top:20px;font-size:16px}
   .fas.fa-heart:hover{color:#9356DC;}
-  .fas.fa-heart{font-size:16px;position:relative;top:-48px;left:60;color:transparent;transition:all 3s ease;transform-origin:bottom;}
+  .fas.fa-heart{font-size:13px;position:relative;top:-68px;left:397px;color:transparent;transition:all 3s ease;transform-origin:bottom;}
 
 
   footer .fas{color:white;font-size:20px;margin:0;margin-right:10px}
@@ -297,7 +323,9 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
  #restos1,#restos2{width:50%;margin:60PX;}
  .resto{margin-top:100px;}
  
-
+ .loader{
+  top:410px;
+  }
 
 
     /*MENU*/
@@ -308,7 +336,7 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
   .repas{display:flex;justify-content:space-around;flex-wrap:wrap;width:100%;}
   .repas article{margin:1%}
   .repas li{height:110px;}
-  .menu .btn {margin:auto;margin-top:2rem;margin-bottom:2rem;padding:4%;width:30%}
+  .menu .btn {width:30%}
 
   .restaurant .far.fa-heart{color:none;transform-origin:bottom ;;position:relative;top:20px;font-size:16px}
   .fas.fa-heart:hover{color:#9356DC;}
@@ -367,8 +395,8 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
   
     body{max-width:1500px;margin:auto}
     .restaurant{width:90%;margin:auto}
-    .fas.fa-arrow-left {color:black;margin:6%;position:absolute;top:2px;left:5%;font-size:50PX}
-    #logo img{padding-left:0;}
+    .fas.fa-arrow-left {color:black;margin:6%;position:absolute;top:-4%;left:0;font-size:50PX}
+    #logo img{padding-left:0;margin-top:1%;}
     
 
     .en-tête .photo{height:900px}
@@ -377,7 +405,6 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
     .repas article{margin:auto;}
     .repas li{width:100%;}
     .menu{padding-left:0}
-    .menu .btn {padding:3%;}
     .menu article{margin-top:0;}
 
     #exeption{padding-top:0}
@@ -392,6 +419,8 @@ nav i{position:relative;left:2.5rem;top:0.5rem;opacity:0.7}
     .display li{margin:20px;}
 
     
-
+    .loader{top:300px;
+      
+    }
   
 }
