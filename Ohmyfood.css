@@ -18,6 +18,8 @@ h1,h2
 
 }
 
+.respas h2{}
+
 .btn
 {
   background: linear-gradient(#FF79DA,#9356dc);
@@ -942,8 +944,13 @@ footer h1{
       margin-top:1%;
     }
     
+    .en-tête{
+      max-width:1500px;
+      max-height: 700px;
+    }
+
     .en-tête .photo{
-      height:900px
+      object-fit:cover;
     }
 
     .restaurant{
@@ -976,6 +983,8 @@ footer h1{
 
     .menu{
       padding-left:0;
+      top:0;
+      border-radius:0;
     }
 
     .menu article{
