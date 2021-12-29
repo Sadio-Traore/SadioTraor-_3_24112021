@@ -18,7 +18,9 @@ h1,h2
 
 }
 
-.respas h2{}
+.repas h2{
+  font-weight: 100;
+}
 
 .btn
 {
@@ -391,7 +393,7 @@ footer h1{
   box-shadow:15px 15px 15px 15px rgba(237,237,237,255);
   transform:scalex(1);
   transform-origin:left;
-  transition:all 5s ease;
+  transition:all 2s all cubic-bezier(0, 0.99, 0.01, 0.99);
 }
 
 .fa-check-circle{
@@ -403,7 +405,7 @@ footer h1{
   padding:10%;
   transform:scale(0);
   transform-origin:right;
-  transition:all 5s ease;
+  transition:all 3s cubic-bezier(0, 0.99, 0.01, 0.99);
 }
 
 .information
