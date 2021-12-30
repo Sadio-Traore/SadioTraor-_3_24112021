@@ -27,7 +27,18 @@ h1,h2
   background: linear-gradient(#FF79DA,#9356dc);
   opacity:1;
   transition:opacity 1s ease-in-out;
+  /*border:1px solid #9356DC;*/
+  border-radius:25rem;  
+  width:50%;
+  max-width:530px;
+  margin:auto;
+  margin-top:3rem;
+  margin-bottom:2rem;
+  padding:30px;
+  color:white;
+  box-shadow:5px 5px rgba(237,237,237,255)
 }
+
 .btn:hover
 {
   opacity:0.7
@@ -82,7 +93,7 @@ bottom:-6px;
 right:-6px;
 border-radius: 50px;
 border:6px solid transparent;
-border-top-color:pink;
+border-top-color:#FF79DA;
 animation:spin 2s linear infinite;
 }
 
@@ -143,18 +154,7 @@ animation:spin 2s linear infinite;
   margin-bottom:1rem;
 }
 
-.btn{
-  border:1px solid #9356DC;
-  border-radius:25rem;  
-  width:50%;
-  max-width:530px;
-  margin:auto;
-  margin-top:3rem;
-  margin-bottom:2rem;
-  padding:30px;
-  color:white;
-  box-shadow:5px 5px rgba(237,237,237,255)
-}
+
 
 nav h2{
   text-align:left;
@@ -349,7 +349,6 @@ footer h1{
 
 .restaurant .far.fa-heart{
   color:none;
-  transform-origin:bottom ;
   position:relative;
   top:20px;
   font-size:17px;
@@ -361,10 +360,15 @@ footer h1{
   right:-13.54rem;
   color:transparent;
   font-size:13.5px;
+  transition:all 3s ease;
+  transform-origin:bottom;
 }
 
 .fas-fa-heart:active{
-  color:#9356DC;
+  background: linear-gradient(120deg,#9356DC 0%,#FF79DA 100%);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 
@@ -432,7 +436,7 @@ footer h1{
   transform:scale(1)
 }
 
-/*.hidden{text-overflow:ellipsis}*/
+
 
 .menu ul{padding:0}
 .menu .prix{display:flex;
@@ -472,24 +476,6 @@ footer h1{
   width:90%;
 }
 
-.restaurant .far.fa-heart{
-  color:none;
-  transform-origin:bottom;
-  position:relative;
-  top:20px;
-  font-size:17px;
-}
-
-.fas.fa-heart:hover{color:#9356DC;}
-.fas.fa-heart{
-  font-size:15px;
-  position:relative;
-  top:-48px;
-  right:13.54rem;
-  color:transparent;
-  transition:all 3s ease;
-  transform-origin:bottom;
-}
 
 .menu .btn{
   max-width:500px;
@@ -603,7 +589,10 @@ footer h1{
   }
 
   .fas.fa-heart:hover{
-    color:#9356DC;
+    background: linear-gradient(120deg,#9356DC 0%,#FF79DA 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .fas.fa-heart{
@@ -775,7 +764,10 @@ footer h1{
     }
 
     .fas.fa-heart:hover{
-      color:#9356DC;
+      background: linear-gradient(120deg,#9356DC 0%,#FF79DA 100%);
+      background-clip: border-box;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
     .fas.fa-heart{
@@ -1006,14 +998,17 @@ footer h1{
     }
 
     .fas.fa-heart:hover{
-      color:#9356DC;
+      background: linear-gradient(120deg,#9356DC 0%,#FF79DA 100%);
+      background-clip: border-box;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
     .fas.fa-heart{
-      font-size:15px;
+      font-size:13.5px;
       position:relative;
       top:-46.5px;
-      left:44.4%;
+      left:44.42%;
       color:transparent;
       transition:all 3s ease;
       transform-origin:bottom;
