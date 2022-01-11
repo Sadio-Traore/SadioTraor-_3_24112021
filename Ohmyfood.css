@@ -326,6 +326,12 @@ footer h1{
   margin-bottom:0;
 }
 
+.display{
+  display:flex;
+  flex-direction: column;
+}
+
+.display ul{margin:0;}
 
 /****MENUS*****/
 /**Header**/
@@ -669,7 +675,7 @@ footer h1{
   }
 
   .display{
-    display:flex;
+    display:flex;flex-direction: row;
     justify-content:space-around;
   }
 
@@ -840,7 +846,7 @@ footer h1{
       }
 
     .display{
-      display:flex;
+      display:flex;flex-direction:row;
       justify-content:space-around;
     }
 
@@ -1056,7 +1062,7 @@ footer h1{
     }
 
     .display{
-      display:flex;
+      display:flex;flex-direction:row;
       justify-content:space-around;
     }
 
