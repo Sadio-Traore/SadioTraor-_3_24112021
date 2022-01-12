@@ -357,7 +357,7 @@ footer h1{
 }
 
 .restaurant .far.fa-heart{
-  color:none;
+  
   position:relative;
   top:20px;
   font-size:17px;
@@ -392,6 +392,102 @@ footer h1{
   margin-bottom:-10rem;
 }
 
+
+.information{
+  display:flex;
+  justify-content:space-between;
+  align-items:stretch;
+  background-color:white;
+  margin:auto;
+  margin-bottom:3rem;
+  border-radius:1rem;
+  width:315px;
+  text-align:start;
+  padding-left:15px;
+  box-shadow:0px -1px 15px 10px rgb(237 237 237);
+  /*transform:scalex(1);
+  transform-origin:left;
+  transition:all 2s cubic-bezier(0, 0.99, 0.01, 0.99);*/
+}
+
+.validation{
+  border:0px solid #99E2D0;
+  border-radius:0 1rem 1rem 0;
+  background-color:#99E2D0;
+  color:white;
+  height:au;
+  width:0px;
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+  /*padding:10%;
+  transform:scalex(0);*/
+  transform-origin:right;
+  transition:all 2s ease-out;
+}
+
+.fa-check-circle{
+  transform: rotate(-90deg);
+  transition: all 3s 2s ease;
+  display:none;
+}
+
+/*
+.information
+{
+  display:flex;
+  width:100%;
+  transform:scale(1);
+  transform-origin:left;
+  transition:all 3s ease-out;
+}*/
+
+.flex1
+{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  flex:1;
+  transform:scale(1);
+  transform-origin:left;
+  transition:all 2s ease-out;
+  /* min-width: 250px; */
+  /* text-overflow: ellipsis; */
+}
+
+
+
+.price
+{
+  padding-top:1em;
+  padding-right:0.5em;
+  /*height:15px;
+  margin-left:0.5em;
+  margin-right:0.5em;*/
+  display:flex;
+  align-items:center
+}
+
+.menu .information:hover  .flex1{
+  transform:scalex(0.90);
+}
+
+.menu .information:hover  .validation{
+  
+  width:70px;
+  
+}
+
+.menu .information:hover .fa-check-circle{
+  transform:rotate(360deg);
+  display:block;
+
+}
+
+
+/*
 .menu li{ 
   display:flex;
   justify-content:space-between;
@@ -406,7 +502,7 @@ footer h1{
   box-shadow:0px -1px 15px 10px rgb(237 237 237);
   transform:scalex(1);
   transform-origin:left;
-  transition:all 2s all cubic-bezier(0, 0.99, 0.01, 0.99);
+  transition:all 2s cubic-bezier(0, 0.99, 0.01, 0.99);
 }
 
 .validation{
@@ -462,7 +558,7 @@ footer h1{
   transform:rotate(360deg);
 
 }
-
+*/
 
 
 .menu ul{padding:0}
@@ -790,7 +886,7 @@ footer h1{
     }
 
     .restaurant .far.fa-heart{
-      color:none;
+      
       transform-origin:bottom ;
       position:relative;
       top:20px;
@@ -1026,7 +1122,7 @@ footer h1{
     }
 
     .restaurant .far.fa-heart{
-      color:none;
+    
       transform-origin:bottom ;
       position:relative;
       top:20px;
