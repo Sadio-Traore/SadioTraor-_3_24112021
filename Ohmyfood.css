@@ -376,6 +376,7 @@ footer h1{
 .fas-fa-heart:active{
   background: linear-gradient(120deg,#9356DC 0%,#FF79DA 100%);
   background-clip: border-box;
+  -webkit-background-clip: text;
 }
 
 
@@ -619,6 +620,7 @@ footer h1{
   .fas.fa-heart:hover{
     background: linear-gradient(120deg,#9356DC 0%,#FF79DA 100%);
     background-clip: border-box;
+    -webkit-background-clip: text;
 
   }
 
@@ -797,7 +799,7 @@ footer h1{
     .fas.fa-heart:hover{
       background: linear-gradient(120deg,#9356DC 0%,#FF79DA 100%);
       background-clip: border-box;
-
+      -webkit-background-clip: text;
     }
 
     .fas.fa-heart{
@@ -1032,6 +1034,7 @@ footer h1{
     .fas.fa-heart:hover{
       background: linear-gradient(120deg,#9356DC 0%,#FF79DA 100%);
       background-clip: border-box;
+      -webkit-background-clip: text;
 
     }
 
