@@ -365,8 +365,8 @@ footer h1{
 
 .fas.fa-heart{
   position:relative;
-  top:-48px;
-  right:-13.54rem;
+  top:-47px;
+  right:-14.27rem;
   color:transparent;
   font-size:13.5px;
   transition:all 3s ease;
@@ -724,8 +724,8 @@ footer h1{
   .fas.fa-heart{
     font-size:13px;
     position:relative;
-    top:-48px;
-    left:310.5px;
+    top:-47px;
+    left:44.3%;
     color:transparent;
     transition:all 3s ease;transform-origin:bottom;
   }
@@ -904,7 +904,7 @@ footer h1{
       font-size:13px;
       position:relative;
       top:-45.7px;
-      right:-44.2%;
+      right:-44.4%;
       color:transparent;
       transition:all 3s ease;
       transform-origin:bottom;
