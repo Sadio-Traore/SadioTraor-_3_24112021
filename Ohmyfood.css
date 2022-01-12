@@ -209,7 +209,7 @@ nav i{
   opacity:0.7;
 }
 
-nav i:hover{
+nav li:hover i{
   color:#9356dc;
 }
 
