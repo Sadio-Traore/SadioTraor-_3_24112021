@@ -381,7 +381,7 @@ footer h1{
 
 
 /**Main**/
-.menu {
+main {
   background-color:rgba(246,246,246,1);
   border-radius:3rem 3rem 0 0;
   position:relative;
@@ -391,6 +391,11 @@ footer h1{
   margin-bottom:-10rem;
 }
 
+
+.repas{display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:auto;}
 
 .information{
   display:flex;
@@ -506,7 +511,7 @@ main article{
 }
 
 
-main  .btn{
+main .btn{
   max-width:500px;
   margin:auto;
   margin-top:15%;
@@ -587,8 +592,8 @@ main  .btn{
   }
   .new{left:79%;
     width:100px;
-    bottom:115%;
-    left:77%;
+    bottom:110%;
+    left:82%;
   }
 
   p.new{
@@ -607,6 +612,11 @@ main  .btn{
   .en-tête.photo{
     height:25rem;
   }
+
+  .repas{display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
   .restaurant{
     width:90%;
     margin:auto;
@@ -658,7 +668,8 @@ main  .btn{
     width:auto;
   }
 
-  .plats.exception2{height:680px;}
+  .plats.exception2{height:545px;}
+  .desserts.exception3{height:545px;}
   
   footer .fas{
     color:white;
@@ -1023,6 +1034,7 @@ main  .btn{
 
     #exception{
       padding-top:0;
+      margin-top: 135px;
     }
 
     .restaurant .far.fa-heart{
