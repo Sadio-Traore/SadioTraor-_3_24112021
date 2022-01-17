@@ -301,7 +301,7 @@ p.new{
 footer{
   height:auto;
   width:auto;
-  background-color:rgba(53,53,53,0.7);
+  background-color:rgba(53,53,53,1);
   color: white;
   margin-right:0px;
   padding:5rem;
