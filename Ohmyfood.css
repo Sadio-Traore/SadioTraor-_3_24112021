@@ -286,16 +286,13 @@ p.new{
 
 #restaurants i {
   position:relative;
-  bottom:25%;
+  bottom:100px;
   left:40%;
 }
 
-.heart-index
-{
-  position:relative;
-  top:-95.5px;
-}
 
+.heart-index .fas.fa-heart {color:transparent;
+  position:relative;top:-22px;font-size:14px;}
 
 /**Footer**/
 footer{
@@ -639,8 +636,8 @@ main .btn{
   .fas.fa-heart{
     font-size:13.4px;
     position:relative;
-    top:-72px;
-    left:44.15%;
+    top:-59.2px;
+    left:44.25%;
     color:transparent;
     transition:all 3s ease;transform-origin:bottom;
   }
@@ -748,14 +745,15 @@ main .btn{
     margin-bottom:0;
     }
 
-  .heart-index{
+    .heart-index .fas.fa-heart {
     position:relative;
-    top:-48.85px;
-    }
+    top:-85px;
+    font-size:14px;}
+    
 
   .resto i{
     position:relative;
-    top:-15%;
+    top:-13%;
     }
 
   .new{
@@ -818,7 +816,7 @@ main .btn{
     .fas.fa-heart{
       font-size:13.4px;
       position:relative;
-      top:-75.1px;
+      top:-60px;
       right:-44.38%;
       color:transparent;
       transition:all 3s ease;
@@ -827,6 +825,7 @@ main .btn{
     
     .repas{
       display:flex;
+      flex-direction: row;
       justify-content:space-around;
       flex-wrap:wrap;
       width:100%;
@@ -926,10 +925,8 @@ main .btn{
         top:-15%;
       }
       
-      .heart-index{
-        position:relative;
-        top:-48px;
-      }
+      .heart-index .fas.fa-heart {color:transparent;
+        position:relative;top:-95px;font-size:14px;}
 
       #restos-titre{
         margin-bottom:0;
@@ -1009,6 +1006,7 @@ main .btn{
     }
 
     .repas{display:flex;
+      flex-direction: row;
       justify-content:space-around;
       flex-wrap:wrap;
       width:AUTO;
@@ -1055,7 +1053,7 @@ main .btn{
     .fas.fa-heart{
       font-size:14.4px;
       position:relative;
-      top:-70.5px;
+      top:-59.5px;
       left:44.43%;
       color:transparent;
       transition:all 3s ease;
