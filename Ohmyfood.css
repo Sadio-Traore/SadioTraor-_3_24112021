@@ -42,7 +42,7 @@ h1,h2
 
 .btn:hover
 {
-  opacity:0.7
+  opacity:0.7;
 }
 
 
@@ -173,7 +173,8 @@ nav li{
   border-radius:2.5rem;
   margin:3%;
   box-shadow:5px 6px rgba(245,245,245,0.5);
-  padding:1%;
+  padding:3%;
+  align-items: center;
 }
 
 nav li:hover {
@@ -185,21 +186,19 @@ nav li:hover {
   margin:auto;
   font-weight:bold;
   width:100%;
-  margin-left:50px;
-  font-size:1.6rem;
-  padding:0.5rem;
   color:black;}
 
 .liste{
   position:relative;
-  left:-1.5rem;
+  left:-2.5rem;
   border:solid 5px #9356DC;
   border-radius:50%;
-  padding-left:10.5px;
-  padding-right:10.5px;
+  /*padding-left:10.5px;
+  padding-right:10.5px;*/
   margin:auto;
   color:white;
   background-color:#9356DC;
+  font-weight:bolder;
 }
 
 nav i{
@@ -230,7 +229,6 @@ nav li:hover i{
 
 img{
   width:100%;
-  border-radius:20px 20px 0 0;
   height:22rem;
   object-fit:cover;
 }
@@ -243,6 +241,7 @@ img{
   text-align:center;
   margin-bottom:5%;
   width:auto;
+  position:relative;
 }
 
 .resto p{
@@ -269,18 +268,11 @@ img{
 }
 
 .new {
-  position:relative;
- /* bottom:110%;
-  left:83%;*/
+  position:absolute;
   border:2px solid #99E2D0 ;
   color:rgba(24,149,118,0.7);
   width:10%;
   background-color:#99E2D0;
-}
-
-p.new{
-  padding:2%;
-  text-align:center;
   font-weight:bold;
 }
 
@@ -292,7 +284,9 @@ p.new{
 
 
 .heart-index .fas.fa-heart {color:transparent;
-  position:relative;top:-22px;font-size:14px;}
+  position:relative;
+  top:-22px;
+  font-size:14px;}
 
 /**Footer**/
 footer{
@@ -457,7 +451,7 @@ main {
 
 .information:hover .fa-check-circle{
   opacity:1;
-  transform:rotate(360deg);
+  transform:rotate(-360deg);
   transition: all 1s ease;
 
 }
@@ -580,6 +574,8 @@ main .btn{
     padding:12px;
     padding-top:9px;
     padding-bottom:9px;
+    position:relative;
+    left:-3rem;
   }
 
 
@@ -587,24 +583,24 @@ main .btn{
     position:relative;
     bottom:50%;
   }
-  .new{left:79%;
-    width:100px;
-    bottom:110%;
-    left:82%;
+
+  .new{
+    TOP: 0;
+    left: 82%;
+    POSITION: ABSOLUTE;
   }
 
   p.new{
-    padding:1rem;
+    padding: 1em 2em;
     text-align:center;
   }
 
+
+  
   /*MENU*/
 
   body{max-width:100%;margin:auto;}
 
-  h2{
-    font-size:3rem;
-  }
     
   .en-tête.photo{
     height:25rem;
@@ -675,9 +671,6 @@ main .btn{
     margin-right:10px;
   }
 
-  footer {
-    font-size:2rem;
-  }
 
   footer h1 {
     text-align:center;
@@ -730,14 +723,14 @@ main .btn{
 
   nav li{
     width:550px;
-    padding:0;
+    
     }
 
   nav .liste{
     padding:10px;
     padding-top:7px;
     padding-bottom:7px;
-    left:-30px;
+    left:-3rem;
     }
 
   #restos-titre{
@@ -756,15 +749,18 @@ main .btn{
     top:-13%;
     }
 
-  .new{
-    left:73%;
-    bottom:103%;
-    width:17%;
+    .new{
+      TOP: 0;
+      left: 68%;
+      POSITION: ABSOLUTE;
+    }
+  
+    p.new{
+      padding: 1em 2em;
+      text-align:center;
     }
 
-  p.new{
-    text-align:center;
-    }
+  
 
   #restos1_2{
     display:flex;
@@ -899,17 +895,18 @@ main .btn{
         padding:12px;
         padding-top:8px;
         padding-bottom:8px;
+        left:-4rem;
       }
     
       .new{
-        bottom:103%;
-        left:80%;
+        TOP: 0;
+        left: 73%;
+        POSITION: ABSOLUTE;
       }
-
+    
       p.new{
-        padding:2%;
+        padding: 1em 2em;
         text-align:center;
-        width:12%;
       }
 
       p{margin-top:1rem;
@@ -926,7 +923,9 @@ main .btn{
       }
       
       .heart-index .fas.fa-heart {color:transparent;
-        position:relative;top:-95px;font-size:14px;}
+        position:relative;
+        top:-95px;
+        font-size:14px;}
 
       #restos-titre{
         margin-bottom:0;
