@@ -301,7 +301,6 @@ footer{
   background-color:rgba(53,53,53,1);
   color: white;
   margin-right:0px;
-  padding:5rem;
 }
 
 footer a{
@@ -396,14 +395,10 @@ main {
 
 .information{
   display:flex;
- 
-  /* align-items:center; */
   background-color:white;
- 
   margin-bottom:3rem;
   border-radius:1rem;
   width:315px;
- 
   padding-left:15px;
   box-shadow:0px -1px 15px 10px rgb(237 237 237);
 
