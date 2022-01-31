@@ -325,6 +325,10 @@ footer h1{
   margin-bottom:0;
 }
 
+.index footer{
+  padding-top:0;
+}
+
 .display{
   display:flex;
   flex-direction: column;
