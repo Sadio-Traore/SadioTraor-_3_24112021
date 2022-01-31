@@ -1059,6 +1059,10 @@ main .btn{
       transition:all 3s ease;
       transform-origin:bottom;
     }
+
+    footer{
+      padding:8rem 8rem 1rem;
+    }
     
     footer .fas{
       color:white;
