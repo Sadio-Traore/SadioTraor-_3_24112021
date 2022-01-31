@@ -336,9 +336,8 @@ footer h1{
 /**Header**/
 .en-tête i {
   position:absolute;
-  top:30;
+  top:1.5rem;
   left:2rem;
-  font-size:40px;
   color:black;
 }
 
@@ -644,11 +643,10 @@ main .btn{
   }
 
   .fas.fas.fa-arrow-left {
-    font-size:40px;
     color:black;
     position:absolute;
     top:60px;
-    left:20%;
+    left:4rem;
   }
 
   .repas{
@@ -713,11 +711,7 @@ main .btn{
     margin:auto;
     }
   
-  .fas.fa-arrow-left {
-    color:black;
-    margin:8%;
-    position:absolute;
-    }
+  
 
   nav ul{
     display:flex;
@@ -787,7 +781,7 @@ main .btn{
       color:black;
       margin:8%;
       position:absolute;
-      font-size: 40px;
+      top:-1rem;
     }
 
     .restaurant{
@@ -1003,9 +997,8 @@ main .btn{
       color:black;
       margin:6%;
       position:absolute;
-      top:-20px;
-      left:0;
-      font-size:40PX;
+      top:-2rem;
+      left:3rem;
     }
 
     .repas{display:flex;
