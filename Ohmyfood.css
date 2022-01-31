@@ -291,8 +291,8 @@ p.new{
 
 .heart-index .fas.fa-heart {color:transparent;
   position:relative;
-  top:-22px;
-  font-size:14px;}
+  top:-120px;
+  font-size:13px;}
 
 /**Footer**/
 footer{
@@ -570,7 +570,7 @@ main .btn{
   }
   .heart-index{
     position:relative;
-    top:-97px;
+  
   }
 
   nav h2{
