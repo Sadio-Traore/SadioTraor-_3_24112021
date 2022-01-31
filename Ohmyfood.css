@@ -333,9 +333,9 @@ footer h1{
 /**Header**/
 .en-tête i {
   position:absolute;
-  top:6%;
+  top:30;
   left:2rem;
-  font-size:100%;
+  font-size:40px;
   color:black;
 }
 
@@ -361,7 +361,7 @@ footer h1{
 
 .fas.fa-heart{
   position:relative;
-  top:-59.5px;
+  top:-60px;
   right:-38.3%;
   color:transparent;
   font-size:13.5px;
@@ -713,7 +713,6 @@ main .btn{
     color:black;
     margin:8%;
     position:absolute;
-    top:25px;
     }
 
   nav ul{
@@ -784,7 +783,7 @@ main .btn{
       color:black;
       margin:8%;
       position:absolute;
-      top:25px;
+      font-size: 40px;
     }
 
     .restaurant{
@@ -1000,9 +999,9 @@ main .btn{
       color:black;
       margin:6%;
       position:absolute;
-      top:-4%;
+      top:-20px;
       left:0;
-      font-size:50PX;
+      font-size:40PX;
     }
 
     .repas{display:flex;
