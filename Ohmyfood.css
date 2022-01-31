@@ -36,9 +36,10 @@ a{cursor:pointer;}
   margin:auto;
   margin-top:3rem;
   margin-bottom:2rem;
-  padding:30px;
+  padding:1em 2em;
   color:white;
-  box-shadow:5px 5px rgba(237,237,237,0.7)
+  box-shadow:5px 5px rgba(237,237,237,0.7);
+  text-decoration: none;
 }
 
 .btn:hover
@@ -371,7 +372,7 @@ footer h1{
   transform-origin:bottom;
 }
 
-.fas-fa-heart:active{
+.fas.fa-heart:hover{
   background: linear-gradient(120deg,#9356DC 0%,#FF79DA 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
@@ -386,6 +387,7 @@ main {
   top:-4rem;
   text-align:center;
   padding:20px;
+  padding-bottom:145px;
   margin-bottom:-10rem;
 }
 
