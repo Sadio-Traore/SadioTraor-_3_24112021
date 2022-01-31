@@ -269,11 +269,17 @@ img{
 
 .new {
   position:absolute;
+  top:0;
+  right:15px;
   border:2px solid #99E2D0 ;
   color:rgba(24,149,118,0.7);
-  width:10%;
   background-color:#99E2D0;
   font-weight:bold;
+}
+
+p.new{
+  padding:0.5em 1em;
+  text-align:center;
 }
 
 #restaurants i {
