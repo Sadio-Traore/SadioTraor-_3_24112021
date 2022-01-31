@@ -361,8 +361,8 @@ footer h1{
 
 .fas.fa-heart{
   position:relative;
-  top:-71px;
-  right:-38.6%;
+  top:-59.5px;
+  right:-38.3%;
   color:transparent;
   font-size:13.5px;
   transition:all 3s ease;
@@ -633,8 +633,8 @@ main .btn{
   .fas.fa-heart{
     font-size:13.4px;
     position:relative;
-    top:-59.2px;
-    left:44.25%;
+    top:-60px;
+    left:43.9%;
     color:transparent;
     transition:all 3s ease;transform-origin:bottom;
   }
