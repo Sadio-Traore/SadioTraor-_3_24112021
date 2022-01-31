@@ -191,11 +191,11 @@ nav li:hover {
 
 .liste{
   position:relative;
-  left:-2.5rem;
+  left:-20px;
+  padding:1% 2%;
   border:solid 5px #9356DC;
   border-radius:50%;
-  /*padding-left:10.5px;
-  padding-right:10.5px;*/
+ 
   margin:auto;
   color:white;
   background-color:#9356DC;
@@ -204,8 +204,7 @@ nav li:hover {
 
 nav i{
   position:relative;
-  left:2.5rem;
-  top:0.5rem;
+  left:10px;
   opacity:0.7;
 }
 
