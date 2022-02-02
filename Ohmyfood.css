@@ -56,9 +56,10 @@ font-family: 'Roboto', sans-serif;}
   height:50px;
   display:inline-block;
   vertical-align: middle;
-  position:relative;
-  top:790px;
+  position:fixed;
+  overflow:visible;
   left:50%;
+  top:50%;
   
   animation:charge 4s linear forwards;
 
@@ -232,7 +233,7 @@ nav li:hover i{
 
 .resto img{
   width:100%;
-  height:auto;
+  max-height:180px;
   border-radius:20px 20px 0 0;
   object-fit:cover;
 }
@@ -751,16 +752,6 @@ main .btn{
     margin-bottom:0;
     }
 
-    .heart-index .fas.fa-heart {
-    position:relative;
-    top:-85px;
-    font-size:14px;}
-    
-
-  .resto i{
-    position:relative;
-    top:-13%;
-    }
 
     .new{
       TOP: 0;
@@ -930,15 +921,7 @@ main .btn{
         height:70%;
       }
 
-      i.far.fa-heart{
-        position:relative;
-        top:-15%;
-      }
-      
-      .heart-index .fas.fa-heart {color:transparent;
-        position:relative;
-        top:-95px;
-        font-size:14px;}
+    
 
       #restos-titre{
         margin-bottom:0;
