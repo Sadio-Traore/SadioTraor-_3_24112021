@@ -18,7 +18,8 @@ h1,h2
 
 }
 
-a{cursor:pointer;}
+a{cursor:pointer;
+font-family: 'Roboto', sans-serif;}
 
 .repas h2{
   font-weight: 100;
@@ -58,7 +59,7 @@ a{cursor:pointer;}
   position:relative;
   top:790px;
   left:50%;
-
+  
   animation:charge 4s linear forwards;
 
 
