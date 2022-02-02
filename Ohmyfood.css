@@ -521,7 +521,6 @@ main .btn{
 .entrées{
   animation:entrées 2s linear;
 }
-
 @keyframes entrées{
   0%{opacity:0;}
   100%{opacity:1;}
@@ -542,7 +541,7 @@ main .btn{
 }
 
 
-/******************************MEDIA QUERIES******************************/
+/***************************************************************MEDIA QUERIES******************************************************************/
 
 @media all and (min-width:764px) and (max-width:1199px)
 
