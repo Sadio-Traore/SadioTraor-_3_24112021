@@ -394,8 +394,13 @@ footer h1{
   background: linear-gradient(120deg,#9356DC 0%,#FF79DA 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
+  animation: heart 3s ease-in-out;
 }
 
+@keyframes heart{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
 
 /**Main**/
 main {
@@ -653,6 +658,7 @@ main .btn{
     background: linear-gradient(120deg,#9356DC 0%,#FF79DA 100%);
     background-clip: border-box;
     -webkit-background-clip: text;
+    animation: heart 3s ease-in-out;
 
   }
 
@@ -813,6 +819,8 @@ main .btn{
       background: linear-gradient(120deg,#9356DC 0%,#FF79DA 100%);
       background-clip: border-box;
       -webkit-background-clip: text;
+      animation: heart 3s ease-in-out;
+
     }
 
     .span3 .fas.fa-heart{
@@ -1040,6 +1048,7 @@ main .btn{
       background: linear-gradient(120deg,#9356DC 0%,#FF79DA 100%);
       background-clip: border-box;
       -webkit-background-clip: text;
+      animation: heart 3s ease-in-out;
 
     }
 
