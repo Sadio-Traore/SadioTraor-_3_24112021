@@ -892,14 +892,15 @@ main .btn{
       }
 
       nav li{
-        width:100%;
+        width:300px;
+        padding:10px 15px;
       }
 
       nav .liste{
         padding:12px;
         padding-top:8px;
         padding-bottom:8px;
-        left:-4rem;
+        left:-2rem;
       }
     
       .new{
