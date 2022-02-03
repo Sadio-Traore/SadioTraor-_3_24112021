@@ -303,6 +303,7 @@ p.new{
 
 
 .heart-index .fas.fa-heart {color:transparent;
+  position:relative;
   left:0;
   top:-20px;
   font-size:17px;}
