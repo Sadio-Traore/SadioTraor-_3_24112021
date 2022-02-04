@@ -12,12 +12,14 @@ p
     font-family : 'Roboto', sans-serif;
 }
 
-h1,h2
+h2
 {
-    font-family : 'Roboto', cursif , sans-serif ;
+    font-family : 'Roboto',sans-serif ;
     font-weight: bolder;
 
 }
+
+h1{font-family:'Shrikhand', cursif, sans-serif}
 
 a{cursor:pointer;
 font-family: 'Roboto', sans-serif;}
