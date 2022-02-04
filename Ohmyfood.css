@@ -426,7 +426,7 @@ main {
 .information{
   display:flex;
   background-color:white;
-  margin-bottom:3rem;
+  margin-bottom:1rem;
   border-radius:0.7rem;
   width:315px;
   padding-left:15px;
@@ -436,7 +436,7 @@ main {
 
 .validation{
   
-  border-radius:0 1rem 1rem 0;
+  border-radius:0 0.7rem 0.7rem 0;
   background-color:#99E2D0;
   color:white;
   width:0px;
@@ -524,9 +524,7 @@ main h1 {
   margin-bottom:0;
 }
 
-main article{
-  margin-top:15%;
-}
+
 
 .restaurant{
   display:flex;
@@ -694,8 +692,8 @@ main .btn{
     width:auto;
   }
 
-  .plats.exception2{height:545px;}
-  .desserts.exception3{height:545px;}
+  .plats.exception2{height:370px;}
+  .desserts.exception3{height:370px;}
   
   footer .fas{
     color:white;
